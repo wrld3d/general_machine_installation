@@ -9,6 +9,7 @@ Run as root and change tom for your user name:
 * [NVIDIA](https://github.com/tdp-libs/general_machine_installation/blob/master/Fedora/NVIDIA.md)
 
 ## Tools
+* [tdp_tools](https://github.com/tdp-libs/tdp_tools)
 * [Android Studio](https://github.com/tdp-libs/general_machine_installation/blob/master/Fedora/AndroidStudio.md)
 
 
