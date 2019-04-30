@@ -1,6 +1,7 @@
 ## Add the Android Studio menu entry
 
 ```
+mkdir ~/.local/share/applications/ -p
 nano ~/.local/share/applications/AndroidStudio.desktop
 ```
 
