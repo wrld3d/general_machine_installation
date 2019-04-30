@@ -28,8 +28,8 @@ dnf install -y "perl(Data::Dumper)" "perl(Thread::Queue)"
 dnf install -y mesa-libGLES-devel mesa-libEGL-devel
 
 #Install RPM fusion
-dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+dnf install -y https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 #Add me to dialout so that I can use screen with serial ports
 usermod -a -G dialout $1
