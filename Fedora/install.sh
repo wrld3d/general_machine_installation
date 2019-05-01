@@ -26,6 +26,7 @@ dnf install -y gcc-c++ meld git svn mercurial wget screen cmake
 dnf install -y ncurses-devel zlib-devel openssl openssl-devel mesa-libGL mesa-libGL-devel texlive-latex texlive-latex-bin boost-devel freeimage freeimage-devel glm-devel
 dnf install -y "perl(Data::Dumper)" "perl(Thread::Queue)"
 dnf install -y mesa-libGLES-devel mesa-libEGL-devel
+dnf install -y gperftools-libs
 
 #Install RPM fusion
 dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
