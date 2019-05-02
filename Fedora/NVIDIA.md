@@ -12,4 +12,7 @@ Download and unpack cudnn from NVIDIA and then:
 cp cuda/include/* /usr/local/cuda-10.1/include/.
 cp cuda/lib64/* /usr/local/cuda-10.1/lib64/.
 
-``` 
+```
+
+## Reboot
+You will need to reboot so that the NVIDIA kernel module gets loaded before trying to use CUDA.
