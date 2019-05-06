@@ -1,2 +1,8 @@
+#!/bin/bash
 
-brew install caskroom/cask/meld
+set -e
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew cask install meld
+brew cask install iterm2
