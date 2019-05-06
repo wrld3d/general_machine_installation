@@ -13,6 +13,10 @@ Add your home directory to finder by:
 ## XCode
 Install XCode throught the App Store.
 
+## Disable iTunes
+* iTunes -> Preferences -> Devices tab 
+* Check the box for Prevent iPods, iPhones, and iPads from syncing automatically.
+
 ## Download And Install
 * Firefox
 * QtCreator
