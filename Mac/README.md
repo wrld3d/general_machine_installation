@@ -27,6 +27,7 @@ cd general_machine_installation/Mac
 ```
 
 ## Libraries
+Whare applicable follow the iOS and Mac install instruction for the following libraries.
 * [Caffe2](https://github.com/tdp-libs/tp_pipeline_caffe2)
 * [TheiaSfM](https://github.com/tdp-libs/tp_pipeline_theia)
 * [PCL](https://github.com/tdp-libs/tp_pipeline_pcl)

@@ -6,3 +6,5 @@ set -e
 
 brew cask install meld
 brew cask install iterm2
+
+sudo rm -rf /Applications/iTunes.app
