@@ -17,7 +17,7 @@ Install XCode throught the App Store.
 * Firefox
 * QtCreator
 
-## Install Brew
+## Run Install Script
 Open /Applications/Other/Terminal
 ```
 git clone https://github.com/tdp-libs/general_machine_installation.git
@@ -25,3 +25,10 @@ cd general_machine_installation/Mac
 ./install.sh
 
 ```
+
+## Libraries
+* [Caffe2](https://github.com/tdp-libs/tp_pipeline_caffe2)
+* [TheiaSfM](https://github.com/tdp-libs/tp_pipeline_theia)
+* [PCL](https://github.com/tdp-libs/tp_pipeline_pcl)
+* [COLMAP](https://github.com/tdp-libs/tp_pipeline_colmap)
+* [OpenCV](https://github.com/tdp-libs/tp_pipeline_opencv)
