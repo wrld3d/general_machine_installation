@@ -15,7 +15,7 @@ Run as root and change tom for your user name:
 
 
 ## Libraries
-* [Caffe2](https://github.com/tdp-libs/tp_pipeline_caffe2)
+* [Caffe2](https://github.com/tdp-libs/tp_pipeline_caffe2#building-caffe2-ios)
 * [TheiaSfM](https://github.com/tdp-libs/tp_pipeline_theia)
 * [PCL](https://github.com/tdp-libs/tp_pipeline_pcl)
 * [COLMAP](https://github.com/tdp-libs/tp_pipeline_colmap)
