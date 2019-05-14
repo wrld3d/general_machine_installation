@@ -10,3 +10,4 @@
 * [PCL](https://github.com/tdp-libs/tp_pipeline_pcl)
 * [COLMAP](https://github.com/tdp-libs/tp_pipeline_colmap)
 * [OpenCV](https://github.com/tdp-libs/tp_pipeline_opencv)
+* [FreeType](https://github.com/tdp-libs/tp_maps_freetype)

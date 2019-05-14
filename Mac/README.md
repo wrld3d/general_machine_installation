@@ -37,3 +37,4 @@ Whare applicable follow the iOS and Mac install instruction for the following li
 * [PCL](https://github.com/tdp-libs/tp_pipeline_pcl)
 * [COLMAP](https://github.com/tdp-libs/tp_pipeline_colmap)
 * [OpenCV](https://github.com/tdp-libs/tp_pipeline_opencv)
+* [FreeType](https://github.com/tdp-libs/tp_maps_freetype#osx-installation)
