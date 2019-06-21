@@ -1,8 +1,7 @@
  
 ## Operating System Installation
-* [Fedora](https://github.com/tdp-libs/general_machine_installation/blob/master/Fedora/README.md)
-* [Mac](https://github.com/tdp-libs/general_machine_installation/blob/master/Mac/README.md)
-
+* [Fedora](Fedora/README.md)
+* [Mac](Mac/README.md)
 
 ## Libraries
 * [Caffe2](https://github.com/tdp-libs/tp_pipeline_caffe2)
