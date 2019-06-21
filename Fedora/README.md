@@ -32,6 +32,8 @@ TODO: Replace this .md with a script. The script should perform the steps in the
 * Grab the cudnn file:
   * `curl -OJ https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.6.0.64/prod/10.1_20190516/cudnn-10.1-linux-x64-v7.6.0.64.tgz`
 * Update `$PATH` and `$LD_LIBRARY_PATH` for the current user
+* Blacklist the `dnf` packages for `nvidia*` and `cuda*`
+  * Running a `dnf` update bricked my machine :(
 
 We also need some troubleshooting here.
 
