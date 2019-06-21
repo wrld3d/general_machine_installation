@@ -6,6 +6,8 @@ We're currently using [Fedora 29 Xfce](https://spins.fedoraproject.org/xfce/down
 
 The closest we found was this unnoficial [Fedora-Xfce-Live-x86_64-29-20181029.1.iso](https://dl.fedoraproject.org/pub/alt/unofficial/releases/29/x86_64/Fedora-Xfce-Live-x86_64-29-20181029.1.iso) version.
 
+**Note**: CUDA 10.1 requires GCC 8.x. We cannot upgrade to Fedora 30 at present, as Fedora 30 ships with GCC 9.
+
 ### Creating a bootable USB drive
 To create a bootable drive from which you can install Fedora, either use the official [Fedora Image Writer](https://getfedora.org/en/workstation/download/) or do it Tom's way:
 * Download the Fedora 29 ISO from the above dl.fedoraproject link 
