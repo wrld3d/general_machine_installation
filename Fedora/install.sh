@@ -41,7 +41,7 @@ dnf install cuda -y
 
 readonly cudnn_tgz="cudnn-10.1-linux-x64-v7.6.0.64.tgz"
 curl -OJ "https://rd-dependencies.s3.amazonaws.com/cuda/cudnn/$cudnn_tgz"
-tar -xzf "$cuddn_tgz"
+tar -xzf "$cudnn_tgz"
 
 cp cuda/include/* /usr/local/cuda-10.1/include/.
 cp cuda/lib64/* /usr/local/cuda-10.1/lib64/.
