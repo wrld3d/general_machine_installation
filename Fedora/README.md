@@ -18,22 +18,21 @@ To create a bootable drive from which you can install Fedora, either use the off
 
 You can now boot your PC with the pen drive plugged in, then press `F8` to boot to it. The remaining instructions assume you've installed Fedora to your machine's hard drive.
 
-## Common Development Tools
-Run as root and change "tom" for your user name
+## Common Development Tools, CUDA & Video Drivers
+To install the required packages, cuda & video drivers, run as root and change "tom" for your user name:
 ```
 ./install.sh tom
 ```
 
-## Video Drivers
-* [NVIDIA](NVIDIA.md)
+**Note**: The video driver installation is not working correctly at present -- the cuda & nvidia packages are installed, but the driver fails to load.
 
-TODO: Replace this .md with a script. The script should perform the steps in the readme plus:
-* Replace the CUDA version with latest
-* Grab the cudnn file:
-  * `curl -OJ https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.6.0.64/prod/10.1_20190516/cudnn-10.1-linux-x64-v7.6.0.64.tgz`
+TODO: 
+* Figure out why the drivers are not being loaded
 * Update `$PATH` and `$LD_LIBRARY_PATH` for the current user
-* Blacklist the `dnf` packages for `nvidia*` and `cuda*`
-  * Running a `dnf` update bricked my machine :(
+* Blacklist the `dnf` updates for `nvidia*` and `cuda*` packages (`dnf` update bricked my machine)
+
+Useful links:
+[NVIDIA cuda/driver guide](http://developer.download.nvidia.com/compute/cuda/10.1/Prod/docs/sidebar/CUDA_Installation_Guide_Linux.pdf)
 
 We also need some troubleshooting here.
 
